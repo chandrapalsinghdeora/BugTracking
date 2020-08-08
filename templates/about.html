@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of my page</title>
+</head>
+<body>
+
+<form class="form-signin" action="http://127.0.0.1:5000/cds">
+      <h2 class="form-signin-heading">Please login</h2>
+
+      <input type="text" class="form-control" name="name" placeholder="USERNAME" required="" autofocus="" />
+
+      <input type="password" class="form-control" name="userName" placeholder="PASSWORD" required=""/>
+
+<input type="hidden" class="form-control" name="email" value={{ name }}>
+
+      <div class="form-group">
+
+	      <label class="col-md-6">
+
+	      </label>
+
+	      <label class="col-md-6">
+
+	      </label>
+
+      </div>
+
+      <label style="color:red"></label>
+
+         <div class="form-group">
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      </div>
+       <div class="form-group"><a href="register">Register here</a>
+      </div>
+      <div class="form-group"><a  href="#">Forgot password?</a>
+      </div>
+    </form>
+</body>
+</html>
